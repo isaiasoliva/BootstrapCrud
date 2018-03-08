@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Sistema Facturación</title>
+</head>
+
+<body>
+    <header id="header-contenedor">
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md">
+            <span class="navbar-brand">Sistema Facturación</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white">&#9776;</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Clientes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-3">
+                <div class="table-header">
+                    <h4 id="titulo">Registrar usuario</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-3">
+                <form action="">
+                    <div class="form-group">
+                        <label class="d-none d-md-block">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Nombre completo">
+                    </div>
+                    <div class="form-group">
+                        <label class="d-none d-md-block">Apellidos</label>
+                        <input id="apellidos" name="apellidos" type="text" class="form-control" placeholder="Apellidos">
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" id="btnGuardar" class="btn btn-primary">Guardar</button>
+                        <button type="button" id="btnVolver" class="btn btn-default ml-2">Volver</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/edicion.js"></script>
+
+</body>
+
+</html>

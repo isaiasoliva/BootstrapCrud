@@ -1,0 +1,22 @@
+{
+  "name": "bootstrapcrud",
+  "version": "1.0.0",
+  "description": "Crud a Api Rest CodeIgniter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "light-server",
+    "bootstrap",
+    "jquery",
+    "codeingniter-api-rest",
+    "ajax"
+  ],
+  "author": "Eduardo Oliva",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
