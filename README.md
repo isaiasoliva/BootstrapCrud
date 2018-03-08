@@ -9,6 +9,6 @@ Correr el proyecto
 
 Ejecuta el siguiente comando para correr el proyecto
 
--npm run dev
+- npm run dev
 
 (Puerto por default: 8180)
